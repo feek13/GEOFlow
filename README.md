@@ -323,6 +323,8 @@ docker compose logs -f
 - 支持配置安全响应头（X-Frame-Options、X-Content-Type-Options 等）
 
 > ⚠️ 生产部署前请务必修改 `.env` 中的 `APP_SECRET_KEY`，并更新默认管理员密码。
+>
+> 如需报告安全问题，请参见 [SECURITY.md](SECURITY.md)。
 
 ---
 
