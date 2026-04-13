@@ -343,7 +343,7 @@ define('DB_PATH', __DIR__ . '/../data/db/blog.db');
 
 // 默认管理员账户
 define('ADMIN_USERNAME', 'admin');
-define('ADMIN_PASSWORD', '$2y$12$...');  // 密码: yaodashuai
+define('ADMIN_PASSWORD', '$2y$12$...');  // 密码: admin888
 
 // 安全配置
 define('SESSION_TIMEOUT', 3600);  // 会话超时1小时

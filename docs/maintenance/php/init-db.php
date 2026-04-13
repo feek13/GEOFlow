@@ -52,7 +52,7 @@ try {
     
     if ($result['count'] == 0) {
         echo "创建默认管理员账户...\n";
-        $password_hash = password_hash('yaodashuai', PASSWORD_DEFAULT);
+        $password_hash = password_hash('admin888', PASSWORD_DEFAULT);
         $stmt = $db->prepare("INSERT INTO admins (username, password, email, name, created_at) VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP)");
         $stmt->execute(['admin', $password_hash, 'admin@example.com', '系统管理员']);
         echo "管理员账户创建成功！\n";

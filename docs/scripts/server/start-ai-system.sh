@@ -54,7 +54,7 @@ echo "   系统测试: http://localhost:$PORT/test_ai_system.php"
 echo ""
 echo "💡 提示:"
 echo "   - 默认管理员账户: admin"
-echo "   - 默认密码: yaodashuai@2025"
+echo "   - 默认密码: admin888"
 echo "   - 按 Ctrl+C 停止服务器"
 echo ""
 

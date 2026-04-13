@@ -98,7 +98,7 @@ echo -e "${BLUE}📊 系统诊断：${NC}http://localhost:8080/geo_admin/system_
 echo ""
 echo -e "${YELLOW}🔐 默认管理员账户：${NC}"
 echo "   用户名: admin"
-echo "   密码: yaodashuai"
+echo "   密码: admin888"
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""

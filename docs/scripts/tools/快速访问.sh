@@ -22,7 +22,7 @@ if lsof -Pi :8080 -sTCP:LISTEN -t >/dev/null 2>&1; then
     echo ""
     echo "🔑 管理员账户："
     echo "   用户名: admin"
-    echo "   密码: yaodashuai"
+    echo "   密码: admin888"
     echo ""
     echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     echo ""
