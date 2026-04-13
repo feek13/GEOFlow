@@ -110,6 +110,20 @@ DB_DRIVER=pgsql php bin/migrate_sqlite_to_pg.php /path/to/blog.db
 - 私有开发仓库与公开仓库的边界
 - 每次向 GitHub 公开仓库推送的固定流程
 
+## 🤝 配套 Skill
+
+这个项目配套提供了一个公开 skill，用于通过本地 `geoflow` CLI 操作 GEOFlow 系统：
+
+- Skill 仓库：[yaojingang/yao-geo-skills](https://github.com/yaojingang/yao-geo-skills)
+- Skill 路径：`skills/geoflow-cli-ops`
+
+适用场景：
+
+- 通过本地 CLI 创建和管理任务
+- 上传文章草稿
+- 审核和发布文章
+- 检查任务与 job 状态
+
 ---
 
 ## ⚙️ 环境变量配置
